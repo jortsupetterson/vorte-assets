@@ -1,0 +1,8 @@
+:root[data-theme="0"] {
+  --backgroundColor: #000000;
+  --contentColor: #ffffff;
+}
+:root[data-theme="1"] {
+  --backgroundColor: #ffffff;
+  --contentColor: #000000;
+}

@@ -1,0 +1,38 @@
+:root {
+  --backgroundColor: initial;
+  --contentColor: initial;
+  --primaryColor: #0b4f60;
+  --secondaryColor: #199473;
+
+  --viewBackgroundColor: rgb(from var(--primaryColor) r g b / 0.16);
+  --sidebarBackgroundColor: rgb(from var(--primaryColor) r g b / 0.2);
+
+  --contentGhostColor: rgb(from var(--contentColor) r g b / 0.06);
+  --primaryGhostColor: rgb(from var(--primaryColor) r g b / 0.08);
+  --secondaryGhostColor: rgb(from var(--secondaryColor) r g b / 0.08);
+}
+
+.group1 {
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.group2 {
+  font-size: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+
+.group3 {
+  font-size: 1.25rem;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+.poppins {
+  font-family: Poppins;
+}

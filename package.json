@@ -1,13 +1,25 @@
 {
-	"name": "style-vars",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
-		"start": "wrangler dev"
-	},
-	"devDependencies": {
-		"wrangler": "^4.42.2"
-	}
+  "name": "assets",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Jori Lehtinen",
+    "url": "https://portfolio.jortsupetterson.workers.dev"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
+    "postcss": "^8.5.6",
+    "postcss-preset-env": "^10.4.0",
+    "wrangler": "^4.42.2"
+  },
+  "dependencies": {
+    "postcss-import": "^16.1.1",
+    "postcss-url": "^10.1.3"
+  }
 }

@@ -1,0 +1,19 @@
+sidebar {
+  background: var(--sidebarBackgroundColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: flex-basis 0.2s ease, padding 0.2s ease;
+  will-change: left, transform padding;
+  padding: 0;
+  flex: 0 0 0;
+  border-radius: 1rem;
+  margin: 0;
+  gap: 2rem;
+}
+
+sidebar.toggled {
+  flex: 0 0 var(--sidebarWidth);
+  padding: 2rem;
+}

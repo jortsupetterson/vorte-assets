@@ -1,0 +1,36 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0.01;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fadeIn 0.5s ease-in-out;
+  color: var(--contentColor);
+  font-family: Inter;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(320px, 100%, 1920px);
+  height: 100dvh;
+  position: relative;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+body {
+  gap: 0;
+  padding: 0.5rem;
+}
+
+body:has(sidebar.toggled) {
+  gap: 0.5rem;
+}

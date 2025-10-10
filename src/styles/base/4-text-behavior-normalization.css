@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  text-size-adjust: 100%;
+}
+body {
+  line-height: 1.5;
+}
+:where(h1, h2, h3, h4, h5, h6, p, li, dd, dt, blockquote, figcaption, small) {
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+}
+:where(h1, h2, h3) {
+  text-wrap: balance;
+}
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  overflow: auto;
+}
+code,
+kbd,
+samp {
+  overflow-wrap: anywhere;
+}
+a {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+img,
+svg,
+video,
+canvas,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+:where(*) {
+  min-width: 0;
+  min-height: 0;
+}
