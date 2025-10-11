@@ -1,11 +1,6 @@
 :root {
   color-scheme: light dark;
-  filter: contrast(attr(data-contrast number, 1))
-    brightness(attr(data-brightness number, 1))
-    saturate(attr(data-saturation number, 1))
-    hue-rotate(attr(data-hue angle, 0deg))
-    grayscale(attr(data-grayscale number, 0)) sepia(attr(data-sepia number, 0))
-    invert(attr(data-invert number, 0));
+  filter: contrast(attr(data-contrast type(<number>), 1));
   overflow-x: hidden;
   overflow-y: auto;
   text-rendering: optimizeLegibility;
@@ -17,8 +12,5 @@
 }
 
 html {
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+  background: var(--backgroundColor);
 }

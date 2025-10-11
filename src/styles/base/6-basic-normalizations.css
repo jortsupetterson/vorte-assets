@@ -63,10 +63,12 @@ textarea {
   color: inherit;
   background: none;
   border: none;
-  padding: 0;
+  padding: 0.2rem;
   margin: 0;
   outline: none;
   appearance: none;
+  min-width: max-content;
+  min-height: max-content;
 }
 
 a {
@@ -98,8 +100,7 @@ progress {
   appearance: none;
 }
 
-a:focus,
-button:focus {
-  outline: none;
-  text-decoration: underline;
+a,
+button {
+  transition: transform 0.2s ease;
 }

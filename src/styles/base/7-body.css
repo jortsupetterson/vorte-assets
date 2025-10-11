@@ -19,18 +19,14 @@ body {
   position: relative;
   overflow: hidden;
   scroll-behavior: smooth;
-  padding: 0;
+  gap: 0;
+  padding: 0.25rem;
   margin: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-body {
-  gap: 0;
-  padding: 0.5rem;
-}
-
 body:has(sidebar.toggled) {
-  gap: 0.5rem;
+  gap: 0.25rem;
 }

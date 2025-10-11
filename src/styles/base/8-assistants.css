@@ -1,12 +1,15 @@
 :root[data-assistant="1"] {
   --primaryColor: var(--contentColor);
   --secondaryColor: #d9ad56;
+  --special3: rgba(109, 107, 99, 0.17);
 }
 :root[data-assistant="2"] {
   --primaryColor: #d58a8b;
   --secondaryColor: #d58a8b;
+  --special3: rgba(201, 131, 132, 0.17);
 }
 :root[data-assistant="3"] {
   --primaryColor: #0b4f60;
   --secondaryColor: #199473;
+  --special3: rgba(11, 79, 96, 0.17);
 }

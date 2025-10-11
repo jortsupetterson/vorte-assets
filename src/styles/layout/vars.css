@@ -1,15 +1,15 @@
 :root {
   --viewWidth: 100%;
-  --sidebarWidth: clamp(250px, var(--viewWidth), 400px);
+  --sidebarWidth: clamp(250px, var(--viewWidth), 548px);
 }
 
 .fullH {
-  --fullH: calc(100dvh - 1rem);
+  --fullH: calc(100dvh - 0.5rem);
   height: clamp(var(--fullH), var(--fullH), var(--fullH));
 }
 
-@media (min-width: 415px) {
+@media (min-width: 542px) {
   :root {
-    --sidebarWidth: clamp(250px, var(--viewWidth), 20dvw);
+    --sidebarWidth: clamp(250px, var(--viewWidth), 22.5dvw);
   }
 }

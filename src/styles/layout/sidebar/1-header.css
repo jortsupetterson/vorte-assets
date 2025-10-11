@@ -1,0 +1,15 @@
+sidebar header {
+  position: relative;
+  min-width: 100%;
+  height: calc(1.33rem + 2rem);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+sidebar header button#closeSidebarBtn svg {
+  width: 1.33rem;
+  height: 1.33rem;
+  max-width: 1.33rem;
+  max-height: 1.33rem;
+}

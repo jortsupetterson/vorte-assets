@@ -1,8 +1,12 @@
 :root[data-theme="0"] {
   --backgroundColor: #000000;
   --contentColor: #ffffff;
+  --special1: #a5a5a5;
+  --special2: #b2b2b2;
 }
 :root[data-theme="1"] {
   --backgroundColor: #ffffff;
   --contentColor: #000000;
+  --special1: #323232;
+  --special2: #4a4a4a;
 }
