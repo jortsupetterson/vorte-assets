@@ -8,6 +8,9 @@ sidebar footer {
   align-items: center;
   height: 30dvh;
 }
+sidebar footer figure {
+  filter: blur(0.1px);
+}
 sidebar footer figure img {
   height: 25dvh;
   width: 25dvh;

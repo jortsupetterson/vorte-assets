@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Inter-VariableFont_opsz,wght.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Inter-VariableFont_opsz,wght.woff2")
+    format("woff2");
 }
 
 @font-face {
@@ -12,8 +12,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-Thin.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/Thin.woff2") format("woff2");
 }
 
 @font-face {
@@ -21,8 +20,8 @@
   font-style: normal;
   font-weight: 200;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-ExtraLight.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/ExtraLight.woff2")
+    format("woff2");
 }
 
 @font-face {
@@ -30,8 +29,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-Light.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/Light.woff2") format("woff2");
 }
 
 @font-face {
@@ -39,8 +37,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-Regular.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/Regular.woff2")
+    format("woff2");
 }
 
 @font-face {
@@ -48,8 +46,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-Medium.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/Medium.woff2")
+    format("woff2");
 }
 
 @font-face {
@@ -57,8 +55,8 @@
   font-style: normal;
   font-weight: 600;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-SemiBold.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/SemiBold.woff2")
+    format("woff2");
 }
 
 @font-face {
@@ -66,8 +64,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-Bold.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -75,8 +72,8 @@
   font-style: normal;
   font-weight: 800;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-ExtraBold.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/ExtraBold.woff2")
+    format("woff2");
 }
 
 @font-face {
@@ -84,6 +81,5 @@
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("https://assets.vorte.app/fonts/Poppins/Poppins-Black.ttf")
-    format("truetype");
+  src: url("https://assets.vorte.app/fonts/Poppins/Black.woff2") format("woff2");
 }
