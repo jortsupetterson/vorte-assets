@@ -13,7 +13,7 @@
   "build": {
     "watch_dir": "./src",
     "cwd": ".",
-    "command": "node build.js"
+    "command": "node optimizeStyles.js && node optimizeImages.js && node optimizeFonts.js"
   }
   /**
    * Bindings

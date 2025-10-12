@@ -1,4 +1,5 @@
 sidebar {
+  position: relative;
   background: var(--sidebarBackgroundColor);
   display: flex;
   flex-direction: column;

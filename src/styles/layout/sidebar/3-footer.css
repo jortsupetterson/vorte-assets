@@ -1,0 +1,14 @@
+sidebar footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30dvh;
+}
+sidebar footer figure img {
+  height: 25dvh;
+  width: 25dvh;
+}
