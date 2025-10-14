@@ -1,8 +1,6 @@
 :root {
   color-scheme: light dark;
   filter: contrast(attr(data-contrast type(<number>), 1));
-  overflow-x: hidden;
-  overflow-y: auto;
   text-rendering: optimizeLegibility;
   font-kerning: none;
   font-variant-ligatures: none;

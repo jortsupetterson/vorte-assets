@@ -104,3 +104,9 @@ a,
 button {
   transition: transform 0.2s ease;
 }
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  display: block;
+}

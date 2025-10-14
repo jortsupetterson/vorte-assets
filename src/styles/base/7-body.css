@@ -10,23 +10,17 @@
 
 body {
   animation: fadeIn 0.5s ease-in-out;
-  color: var(--contentColor);
-  font-family: Inter;
+  position: fixed;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
+  color: var(--contentColor);
+  font-family: Inter;
   width: clamp(320px, 100%, 1920px);
-  height: 100dvh;
-  position: relative;
-  overflow: hidden;
-  scroll-behavior: smooth;
   gap: 0;
-  padding: 0.25rem;
+  padding: 0;
   margin: 0;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-}
-
-body:has(sidebar.toggled) {
-  gap: 0.25rem;
+  align-items: flex-start;
 }

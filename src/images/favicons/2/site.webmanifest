@@ -1,7 +1,13 @@
 {
-  "name": "Vorte, Digital Office with Assistants",
+  "name": "Vorte",
   "short_name": "Vorte",
-  "start_url": "https://vorte.app?pwa",
+  "start_url": "/?assistant=2",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#D58A8B",
+  "theme_color": "#D58A8B",
+  "description": "Digital Office with Assistants",
   "icons": [
     {
       "src": "favicon-192x192.png",
@@ -13,8 +19,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "theme_color": "#d58a8b",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }

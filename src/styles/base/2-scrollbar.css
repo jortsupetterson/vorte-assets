@@ -10,7 +10,8 @@
 
 html,
 body {
-  overflow: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  max-height: 100dvh;
 }

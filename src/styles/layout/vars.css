@@ -4,12 +4,12 @@
 }
 
 .fullH {
-  --fullH: calc(100dvh - 0.5rem);
+  --fullH: 100dvh;
   height: clamp(var(--fullH), var(--fullH), var(--fullH));
 }
 
-@media (min-width: 542px) {
+@media (min-width: 548px) {
   :root {
-    --sidebarWidth: clamp(250px, var(--viewWidth), 22.5dvw);
+    --sidebarWidth: clamp(250px, var(--viewWidth), 17.5rem);
   }
 }

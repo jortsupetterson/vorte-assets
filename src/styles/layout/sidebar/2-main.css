@@ -1,0 +1,12 @@
+sidebar main {
+  min-height: 70dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+p.sidebarHeading {
+  font-weight: 100;
+}

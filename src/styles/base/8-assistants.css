@@ -9,7 +9,7 @@
   --special3: rgba(201, 131, 132, 0.17);
 }
 :root[data-assistant="3"] {
-  --primaryColor: #0b4f60;
-  --secondaryColor: #199473;
+  --primaryColor: #199473;
+  --secondaryColor: #0b4f60;
   --special3: rgba(11, 79, 96, 0.17);
 }
